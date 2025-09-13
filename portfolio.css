@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    /* height: 100%;
+    width: 100%; */
+    overflow: none;
+   
+}
+@media only screen and (min-width: 321px) and (max-width: 1024px) {
+    .mine {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftbox, .rightbox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .link a {
+        margin: 10px 0;
+    }
+}
+
+    
+
+#img{
+    border-radius: 200px;
+}
+#img2{
+    width: 400px;
+    border-radius: 500px;
+}
+.navbar{
+    height: 50%;
+    width: 99%;
+    border: 2px solid black;
+    border-radius: 12px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    margin: 12px;
+    padding: 20px;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.8rem;
+    
+
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.para {
+    font-size: 1.8rem;
+    list-style-type: disc;
+    
+}
+.mine{
+    display: flex;
+    
+    margin: 50px;
+    
+
+}
+.rightbox{
+    height: 500px;
+    
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+#h2{
+    font-size: 2.9rem;
+}
+#h3{
+    font-size: 2.3rem;
+    color: red;
+
+}
+#par{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(153, 166, 188);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#par:hover{
+     transform: scale(1.2);;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+#h4{
+    font-size: 2.5rem;
+}
+.projects{
+       margin: 50px;
+       display: flex;
+       gap: 20px;
+       flex-direction: column;
+
+}
+#heading{
+    font-size: 2.5rem;
+
+}
+#h6{
+    font-size: 2rem;
+    color: rgb(246, 171, 10);
+}
+#maillink{
+    color: blue;
+}
+.card{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 12px;
+    
+    padding: 12px;
+    justify-content: space-between;
+    
+}
+.contact{
+    margin: 50px;
+}
+.footer{
+        background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+        
+
+
+}
+@media  screen and (max-width:768px)  {
+    
+    
+}
+
+
+
+
+
+
+
+
